@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class VeribiCLI < Formula
+class VeribiCli < Formula
   desc "Command line interface for Veribi platform"
   homepage "https://veribi.cz/"
   version "0.1.7"
