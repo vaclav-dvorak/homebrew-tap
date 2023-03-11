@@ -35,7 +35,7 @@ class VeribiCli < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.8/veribi_linux_amd64.tar.gz"
-      sha256 "8bfc997564c28b32cb26014f487355f954a5749ac70699cae64a12514427d46d"
+      sha256 "e9c8dbe56cbfa47d97120971ab2ce9dc3e8a277c7d29482064e70310f1a20f6a"
 
       def install
         bin.install "veribi"
