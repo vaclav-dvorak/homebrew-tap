@@ -9,8 +9,8 @@ class VeribiCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.7/veribi_darwin_arm64.tar.gz"
-      sha256 "0520d00d6cf819726a25d971ba20437344e20b1629739720a082b727034990e3"
+      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.11/veribi_darwin_arm64.tar.gz"
+      sha256 "8662944da45119f2b57c1bc14821c1a55b84401dc9f3020006dac4370a3f46b8"
 
       def install
         bin.install "veribi"
@@ -20,8 +20,8 @@ class VeribiCli < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.7/veribi_darwin_amd64.tar.gz"
-      sha256 "e714fc98692b12d30f633f533b636301a82472da3532ee8e34c4ae31071d46d8"
+      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.11/veribi_darwin_amd64.tar.gz"
+      sha256 "91f8b81dc9358397e00ca22a1838308f7bef80155ebed8837aa01b9fee134edf"
 
       def install
         bin.install "veribi"
@@ -45,8 +45,8 @@ class VeribiCli < Formula
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.7/veribi_linux_arm.tar.gz"
-      sha256 "52b3f9de1c16c6c9eaf9655b54f4d89c154c811e72aa660f1ba08acf7f24f7c5"
+      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.11/veribi_linux_arm.tar.gz"
+      sha256 "3b4a61b7c3e003ba9b1385ca9fa7fbf9f219a8065b4c1f7683928045b26fbbbb"
 
       def install
         bin.install "veribi"
@@ -56,8 +56,8 @@ class VeribiCli < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.7/veribi_linux_arm64.tar.gz"
-      sha256 "7fd883e2b3238c040667cd8598d56370db2c387fb3915224eaf9c503c36dd9b1"
+      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.11/veribi_linux_arm64.tar.gz"
+      sha256 "accc712d01b7ac896495696c04fe77415bfc37efbed4317a85620d510e739c88"
 
       def install
         bin.install "veribi"
