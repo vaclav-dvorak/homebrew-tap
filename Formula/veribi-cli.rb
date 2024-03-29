@@ -4,7 +4,7 @@
 class VeribiCli < Formula
   desc "Command line interface for Veribi platform"
   homepage "https://veribi.cz/"
-  version "0.1.11"
+  version "0.1.12"
   license "MIT"
 
   on_macos do
@@ -34,8 +34,8 @@ class VeribiCli < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.11/veribi_linux_amd64.tar.gz"
-      sha256 "9456731150b755d1aa499ed9d364ef30c1bf5e756f0a4c76e97c7a38ebdb8d7c"
+      url "https://github.com/vaclav-dvorak/veribi-cli/releases/download/v0.1.12/veribi_linux_amd64.tar.gz"
+      sha256 "4cdf2cd224b3190fc80035f2c5ebf1cf754c2596315c2cf9b426e903bdb5ff04"
 
       def install
         bin.install "veribi"
